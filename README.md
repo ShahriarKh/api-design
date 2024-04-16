@@ -311,7 +311,7 @@ Here are the cons:
 #### Versioning Schemes
 A pragmatic versioning scheme completes the overall API versioning strategy and addresses how to format the version number, when to upgrade and when to retire a version:
 
-* We will base our approach on Semantic Versioning ([semver](http://semver.org/)) and Fear-Driven Versioning ([ferver](https://github.com/jonathanong/ferver)).
+* We will base our approach on Semantic Versioning ([semver](http://semver.org/)) and Fear-Driven Versioning ([ferver](https://github.com/jaredly/ferver)).
 * We will only use a Major and Minor version in the form `x.y`, where `x` >= 1 and represents the Major version number, and `y` >= 0 and represents the Minor version number.
   * We never have a Major version of 0 because it makes the API appear unstable.
 * There is no need to modify either the Major or Minor version for Non-Breaking changes.
